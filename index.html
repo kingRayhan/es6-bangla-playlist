@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="styles.css" rel="stylesheet" />
+    <title>JavaScript DOM Tutorials</title>
+  </head>
+  <body>
+  	<div id="wrapper">
+	    <header>
+	    	<div id="page-banner">
+	    		<h1 class="title">Bookmarks</h1>
+          <p>Books for JS Developer</p>
+          <form id="search-books">
+            <input type="text" placeholder="Search books..." id="search" />
+          </form>
+	    	</div>
+      </header>
+	    <div id="book-list">
+	    	<h2 class="title">Books to Read</h2>
+	    	<ul>
+          
+	    		<li>
+            <button class="delete">x</button>
+	    			<span class="name">A Playful Introduction to Programming</span>
+	    		</li>
+	    		<li>
+            <button class="delete">x</button>
+	    			<span class="name">A Modern Introduction to Programming</span>
+	    		</li>
+	    		<li>
+            <button class="delete">x</button>
+	    			<span class="name">JavaScript: The Good Parts</span>
+	    		</li>
+	    		<li>
+            <button class="delete">x</button>
+	    			<span class="name">Effective JavaScript: 68 Specific Ways to Harness the Power of JavaScript</span>
+	    		</li>
+	    		<li>
+            <button class="delete">x</button>
+	    			<span class="name">JavaScript: The Definitive Guide</span>
+	    		</li>
+
+	    	</ul>
+	    </div>
+	    <div id="add-book">
+	    	<input type="text" class="addbook-input" placeholder="Add a book..." />
+	    	<button>Add</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
