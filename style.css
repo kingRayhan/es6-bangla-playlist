@@ -1,0 +1,15 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.tweet-box {
+  position: relative;
+}
+.tweet-box textarea {
+  resize: none;
+}
+.tweet-box .counter {
+  position: absolute;
+  bottom: 8px;
+  right: 10px;
+}
